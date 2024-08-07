@@ -19,18 +19,18 @@
 ###############
 # Rules by id #
 ###############
-MD004: false                  # Unordered list style
+MD004: false                  # Unordered list style (allows any style of bullet points)
 MD007:
-  indent: 2                   # Unordered list indentation
+  indent: 2                   # Unordered list indentation (2 spaces for nested lists)
 MD013:
-  line_length: 999            # Line length 80 is far to short. We allow soft wrapped paragraphs and raw code outputs
+  line_length: 999            # Line length 80 is far too short. We allow soft wrapped paragraphs and raw code outputs
 MD026:
-  punctuation: ".,;:!。，；:"  # List of not allowed
-MD029: false                  # Ordered list item prefix
-MD033: false                  # Allow inline HTML
-MD036: false                  # Emphasis used instead of a heading
+  punctuation: ".,;:!。，；:"  # List of not allowed punctuation for headers
+MD029: false                  # Ordered list item prefix (allows any numbering style for ordered lists)
+MD033: false                  # Allow inline HTML (permits usage of HTML within markdown files)
+MD036: false                  # Emphasis used instead of a heading (disables the rule that flags emphasis as a heading)
 
 #################
 # Rules by tags #
 #################
-blank_lines: false  # Error on blank lines
+blank_lines: false  # Error on blank lines (disables the rule that flags blank lines)
